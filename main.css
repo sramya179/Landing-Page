@@ -1,0 +1,63 @@
+.navbar {
+    background:rgb(104, 91, 91)
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+.navbar-brand:hover{
+    color: #000;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.header {
+    background-image: url('new.jpg');
+   }
+
+.description {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.description h1 {
+    color: #140731;
+}
+.description p {
+    color: #140731;
+}
+.description button {
+    background: rgb(88, 82, 82);
+    color:#fff;
+}
+
+.description button:hover {
+    background:#fff;
+    color:#000;
+}
+@media (max-width: 575.98px) {
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+  .description h1 {
+        font-size: 2em;
+    }
+}
+.page-footer {
+    background-color: rgb(49, 37, 37);
+    color: #ccc;
+    padding: 60px 0 30px;
+}
